@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "inter";
+  src: url("../assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+.social-link {
+  @apply py-3
+    w-full
+    text-center
+    text-sm
+  bg-Grey
+    rounded-xl
+    m-1
+    font-semibold;
+}
